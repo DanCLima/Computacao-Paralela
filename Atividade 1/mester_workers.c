@@ -8,6 +8,9 @@
 |       Data........:   15/09/2023                               |
 +----------------------------------------------------------------*/
 
+    // Compilar: mpicc -o hello hello.c
+    // Executar: mpiexec -n 4 hello
+
 #include <mpi.h>
 #include <stdio.h>
 #include <time.h>
