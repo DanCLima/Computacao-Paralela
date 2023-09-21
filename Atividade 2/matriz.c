@@ -39,18 +39,20 @@ int main(int argc, char const *argv[])
     int matriz_B[linhas_B][colunas_B];
     int matriz_C[linhas_A][colunas_B];
 
+    srand(time(NULL));
+
     if (world_rank == 0) {
         /* Iniciando a matriz A */
         for (int i = 0, k = 0; i < linhas_A; i++) {
             for (int j = 0; j < colunas_A; j++, k++) {
-                matriz_A[i][j] = k;
+                matriz_A[i][j] = rand() % 101;      // Valores aleatórios de 0 a 100
             }
         }
 
         /* Iniciando a matriz B */
         for (int i = 0, k = 12; i < linhas_B; i++) {
             for (int j = 0; j < colunas_B; j++, k++) {
-                matriz_B[i][j] = k;
+                matriz_B[i][j] = rand() % 101;
             }
         }
 
