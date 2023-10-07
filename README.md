@@ -1,2 +1,2 @@
-# Programação Paralela
+# Computação Paralela
 Repositório destinado à disciplina Programação Paralela
