@@ -1,2 +1,2 @@
-# Computação Paralela
-Repositório destinado à disciplina Programação Paralela
+# Computação Paralela e Distribuída
+Repositório destinado à disciplina Computação Paralela e Distribuída
